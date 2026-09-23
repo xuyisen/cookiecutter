@@ -240,6 +240,7 @@ def test_user_config_recurse_submodules(mocker, cli_runner, user_config_path):
         password=None,
         directory=None,
         accept_hooks=True,
+        keep_project_on_failure=False,
     )
 
 @pytest.mark.usefixtures('remove_fake_project_dir')

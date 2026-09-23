@@ -179,3 +179,8 @@ AGENT.md.bak
 GEMINI.md
 GEMINI.md.bak
 # END Ruler Generated Files
+# Shell redirection artifacts
+=[0-9]*
+>[0-9]*
+*.tmp
+*.log
